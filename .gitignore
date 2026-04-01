@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+
+# 在我们前端项目中 很重视该配置。所以不应该忽略该配置
+# .vscode/*
+# !.vscode/extensions.json
+
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 不提交仓库中的依赖包
+node_modules
+
+# 不提供自动生成的类型文件
+auto-imports.d.ts
+typed-router.d.ts
+
+# 满足特定命名规则的文件，认定为自动生成的类型文件，不予提交
+components.d.ts
+components-instance.d.ts
+# 名称多一个短横线的文件，认定为主动生成的类型文件，不予提交
+components-*.ts
+
+# 忽略自动生成的依赖锁文件 不提供包管理器的依赖锁文件
+pnpm-lock.yaml
+package-lock.json

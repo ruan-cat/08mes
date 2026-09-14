@@ -1,2 +1,8 @@
-onlyBuiltDependencies:
-  - vue-demi
+allowBuilds:
+  "@parcel/watcher": true
+  core-js: true
+  es5-ext: true
+  esbuild: true
+  simple-git-hooks: true
+overrides:
+  "@ruan-cat/utils": "4.11.0"

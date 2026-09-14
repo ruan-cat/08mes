@@ -4,7 +4,7 @@
 	"private": true,
 	"type": "module",
 	"description": "01星球大项目-08mes项目。这里是MES系统后台前端代码。",
-	"packageManager": "pnpm@10.16.1",
+	"packageManager": "pnpm@12.4.1",
 	"engines": {
 		"node": ">=22.14.0"
 	},

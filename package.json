@@ -18,8 +18,7 @@
 		"lint": "eslint . --fix",
 		"preview": "vite preview --port=4173 --configLoader runner",
 		"git:fetch": "git fetch -p",
-		"corepack:pnpm": "corepack enable && corepack install",
-		"preinstall": "npx only-allow pnpm && npm run corepack:pnpm",
+		"preinstall": "npx only-allow pnpm",
 		"prepare": "simple-git-hooks",
 		"build:vue-tsc": "vue-tsc && vite build --configLoader runner"
 	},
